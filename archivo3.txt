@@ -1,0 +1,27 @@
+
+Hilo 1: 3998
+Hilo 2: 3998
+Hilo 1: 3999
+Hilo 2: 3999
+
+Hilo 1 entra a la seccion critica.
+Hilo 1: 4000
+Hilo 1: 4001
+...
+Hilo 1: 5999
+Hilo 1: 6000
+Hilo 1 sale de la seccion critica.
+
+Hilo 2 entra a la seccion critica.
+Hilo 2: 4000
+Hilo 2: 4001
+...
+Hilo 2: 5999
+Hilo 2: 6000
+Hilo 2 sale de la seccion critica.
+
+...
+Hilo 1: 10000
+Hilo 2: 10000
+
+Ambos hilos terminaron su ejecucion.
